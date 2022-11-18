@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.square{
+    height: 350px;
+    width: 350px;
+    background-color: darkblue;
+
+}
+
+.square-red{
+    background: red;
+}
+
+.square-yellow{
+    background-color: yellow;
+}
+
+.square-green{
+    background-color: green;
+}
+.square-gray{
+    background-color: grey;
+}
+.square-black{
+    background-color: black;
+}
