@@ -5,6 +5,7 @@ import Post2 from "./components/Post2";
 import About from "./components/About";
 import Popular from "./components/Popular";
 import Tags from "./components/Tags";
+import Footer from "./components/Footer";
 const App=()=>{
     return(
       <div className="w3-content" style={{maxWidth: '1400px'}}>
@@ -20,6 +21,7 @@ const App=()=>{
             <Tags/>
           </div>
         </div>
+          <Footer/>
       </div>
     );
   }
