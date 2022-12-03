@@ -2,7 +2,7 @@ import React from "react";
 
 const Popular=()=>{
     return(
-        <div>
+        <>
             <div className="w3-card w3-margin">
                 <div className="w3-container w3-padding">
                 <h4>Popular Posts</h4>
@@ -31,7 +31,7 @@ const Popular=()=>{
                 </ul>
             </div>
             <hr />
-        </div>
+        </>
 
     )
 }
